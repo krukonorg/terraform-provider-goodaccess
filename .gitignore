@@ -1,0 +1,44 @@
+
+# Go build artifacts
+*.exe
+*.out
+*.test
+*.log
+*.tmp
+*.bin
+
+# Local dev build output
+/build/
+/dist/
+/bin/
+
+# Go module cache
+vendor/
+*.mod.tmp
+
+# IDE/editor config
+.idea/
+.vscode/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# GitHub actions output
+coverage.*
+*.cov
+
+# Logs
+*.log
+
+# Test artifacts
+*.test.json
+*.result.json
