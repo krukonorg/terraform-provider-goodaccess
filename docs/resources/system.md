@@ -13,8 +13,6 @@ description: |-
 ## Example Usage
 
 ```terraform
-# Copyright (c) HashiCorp, Inc.
-
 resource "goodaccess_system" "example" {
   name     = "GoodAccess from tf"
   host     = "https://goodaccess22.com"
@@ -44,7 +42,5 @@ resource "goodaccess_system" "example" {
 Import is supported using the following syntax:
 
 ```shell
-# Copyright (c) HashiCorp, Inc.
-
 terraform import goodaccess_system.example 123
 ```
